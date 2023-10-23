@@ -1,0 +1,21 @@
+
+@media (max-width: 768px){
+    .navigation{
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .login form{
+        width: 80% !important;
+        
+    }
+    
+}
+
+@media (max-width:1000px) {
+    main .slider-nav{
+        width:fit-content;
+    }
+}

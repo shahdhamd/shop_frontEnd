@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--https://refreshless.com/nouislider/examples/#section-html5-->
+    <link rel="stylesheet" href="css/noUislider/nouislider.min.css">
+    <link rel="stylesheet" href="css/slick/slick.css">
+    <link rel="stylesheet" href="css/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- top-navbar -->
+    <div class="top-navbar">
+        <div class="container">
+            <div class="content">
+                <ul class="list ">
+                    <li class="item">
+
+                        <a href="#"><i class="fa-solid fa-phone"></i> +021-95-51-84</a>
+                    </li>
+                    <li class="item">
+
+                        <a href="#"><i class="fa-regular fa-envelope"></i> email@email.com</a>
+                    </li>
+                    <li class="item">
+
+                        <a href="#"><i class="fa-solid fa-location-dot"></i> 1734 Stonecoal Road</a>
+                    </li>
+                </ul>
+                <ul class="list ">
+                    <li class="item">
+                        <a href="#"><i class="fa-solid fa-dollar-sign"></i> USD</a>
+                    </li>
+                    <li class="item">
+                        <a href="#"><i class="fa-solid fa-user"></i>My Account</a>
+                    </li>
+                    <li class="item">
+                        <a href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i> Log in</a>
+                    </li>
+                    <li class="item">
+                        <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log out</a>
+                    </li>
+                    <li class="item">
+                        <a href="register.html"><i class="fa-solid fa-user-plus"></i> Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end top-header -->
+    <!-- start navbar -->
+    <div class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="log col-lg-3 logo">
+                    <img src="img/logo.png.webp">
+                </div>
+                <div class="col-lg-6  search">
+                    <form action="GET">
+                        <select>
+                            <option value="0">All Categories</option>
+                            <option value="1">Category 01</option>
+                            <option value="2">Category 02</option>
+                        </select>
+                        <input type="text" placeholder="Search here">
+                        <button>Search</button>
+                    </form>
+                </div>
+                <div class="col-lg-3  cart">
+                    <ul class="list">
+                        <li class="item">
+                            <a href="#" target="_blank" class="item-a">
+                                <span class="num">2</span>
+                                <i class="fa-regular fa-heart item-icon"></i>
+                                <span>Your Wishlist</span>
+                            </a>
+                        </li>
+                        <li class="item dropdown">
+                            <a href="#" class="dropdown-toggle item-a" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span class="num">2</span>
+                                <i class="fa-solid fa-cart-shopping item-icon"></i>
+                                <span>Your Cart</span>
+                            </a>
+                            <div class="dropdown-menu cart-dropdown ">
+                                <div class="cart-list">
+                                    <div class="product">
+                                        <div class="img">
+                                            <img src="img/product01.png.webp" class="w-100">
+                                        </div>
+                                        <div class="body">
+                                            <h3 class="product-name">
+                                                <a href="#">PRODUCT NAME GOES HERE</a>
+                                            </h3>
+                                            <h4 class="product-price">
+                                                <span>1x </span>
+                                                <p>$980.00</p>
+                                            </h4>
+                                        </div>
+                                        <button class="delete"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                    <div class="product">
+                                        <div class="img">
+                                            <img src="img/product02.png.webp" class="w-100">
+                                        </div>
+                                        <div class="body">
+                                            <h3 class="product-name">
+                                                <a href="#">PRODUCT NAME GOES HERE</a>
+                                            </h3>
+                                            <h4 class="product-price">
+                                                <span>3x </span>
+                                                <p>$980.00</p>
+                                            </h4>
+                                        </div>
+                                        <button class="delete"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                </div>
+                                <div class="cart-summary">
+                                    <small>3 Item(s) selected</small>
+                                    <h5>SUBTOTAL: $2940.00</h5>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="cart.html" class="view-btn">View Cart</a>
+                                    <a href="#" class="icon-btn">Checkout <i
+                                            class="fa-solid fa-circle-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar -->
+    <!-- start navigation -->
+    <div class="navigation">
+        <div class="container">
+            <ul class="list">
+                <li class="item active fw-bolder">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="item">
+                    <a href="#">Hot Deals</a>
+                </li>
+                <li class="item">
+                    <a href="#">Categories</a>
+                </li>
+                <li class="item">
+                    <a href="#">Laptops</a>
+                </li>
+                <li class="item">
+                    <a href="#">Smartphones</a>
+                </li>
+                <li class="item">
+                    <a href="#">Cameras</a>
+                </li>
+                <li class="item">
+                    <a href="#">Accessories</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end navigation -->
+    <!-- start breadcrumb -->
+    <div class="breadcrumb-sec">
+        <div class="container">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav"><!--from bootstrap-->
+                <div class="addre">
+                    <h3 class="me-3 text-uppercase">YOUR Checkout</h3>
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item" aria-current="page"><a href="#">CHECKOUT</a></li>
+                    </ol>
+                </div>
+                <div>
+                    <a href="checkout.html" class="btn btn-danger">checkout</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- end breadcrumb -->
+    <!-- start main -->
+    <main class="chechout-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 card p-3 my-3">
+                    <h3 class="text-uppercase text-center text-bold fs-4">BILLING ADDRESS</h3>
+                    <form action="GET">
+                        <div class=" mb-3">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Address">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="City">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Country">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Code">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Telephone">
+                        </div>
+                        <div class="check mb-3">
+                            <input type="checkbox">
+                            <label>Create Account?</label>
+                        </div>
+                        <div>
+                            <h3>SHIPING ADDRESS</h3>
+                            <div class="check mb-3">
+                                <input type="checkbox">
+                                <label>ship to a different address ?</label>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Order note"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-5 col-md-5 card p-3 ms-3 second-box my-3">
+                    <h3 class="text-uppercase text-center text-bold mb-3 fs-4">your order</h3>
+                    <div class="order-product mb-3">
+                        <div class="items">
+                            <p class="fw-bold">PRODUCT</p>
+                            <p>TOTAL</p>
+                        </div>
+                        <div class="items">
+                            <p>1x Product Name Goes Here</P>
+                            </p>
+                            <p>$980.00</p>
+                        </div>
+                        <div class="items">
+                            <p>2x Product Name Goes Here</p>
+                            <p>$980.00</p>
+                        </div>
+                        <div class="items">
+                            <p>Shiping</p>
+                            <p class="fw-bold">FREE</p>
+                        </div>
+                        <div class="items">
+                            <p class="fw-bold">TOTAL</p>
+                            <p class="fw-bold fs-5 price">$2940.00</p>
+                        </div>
+                    </div>
+                    <form action="GET">
+                        <div class="order mb-3">
+                            <div class="accordion mb-3" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            <input type="radio" name="type" class="me-2"><label>Direct Bank
+                                                Transfer</label>
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam saepe
+                                                error est eveniet optio blanditiis velit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <input type="radio" name="type" class="me-2"><label>Cheque Payment</label> <br>
+                            <input type="radio" name="type" class="me-2"><label>Paypal System</label>
+                        </div>
+                        <div class="mb-4 ">
+                            <input type="checkbox" class="me-2"><label>l've read accept the terms & conditions</label>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn">PLACE ORDER</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end main -->
+    <!-- start footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>ABOUT US</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+                    </p>
+                    <ul class="list">
+                        <li class="item"><i class="fa-solid fa-location-dot"></i> <a href="#">1734 Stonecoal Road</a>
+                        </li>
+                        <li class="item"><i class="fa-solid fa-phone"></i><a href="#">+021-95-51-84</a></li>
+                        <li class="item"><i class="fa-regular fa-envelope"></i><a href="#">email@email.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>CATEGORIES</h3>
+                    <ul class="list">
+                        <li class="item"><a href="#">deals</a> </li>
+                        <li class="item"><a href="#">Laptops</a> </li>
+                        <li class="item"><a href="#">Smartphones</a> </li>
+                        <li class="item"><a href="#">Cameras</a> </li>
+                        <li class="item"><a href="#">Accessories</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>INFORMATION</h3>
+                    <ul class="list">
+                        <li class="item"><a href="#">About Us</a></li>
+                        <li class="item"><a href="#">Contact Us</a></li>
+                        <li class="item"><a href="#">Privacy Policy</a></li>
+                        <li class="item"><a href="#">Orders and Returns</a></li>
+                        <li class="item"><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3>SERVICE</h3>
+                    <ul class="list">
+                        <li class="item"><a href="#">Account</a> </li>
+                        <li class="item"><a href="#">Cart</a> </li>
+                        <li class="item"><a href="#">Wishlist</a></li>
+                        <li class="item"><a href="#">Track My Order</a></li>
+                        <li class="item"><a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+    <!-- start final section-->
+    <div class="final">
+        <div class="container">
+            <ul class="list mb-4 ">
+                <li class="item"><a href="#"><i class="fa-brands fa-cc-visa"></i></a></li>
+                <li class="item"><a href="#"><i class="fa-regular fa-credit-card"></i></a></li>
+                <li class="item"><a href="#"><i class="fa-brands fa-cc-paypal"></i></a></li>
+                <li class="item"><a href="#"><i class="fa-brands fa-cc-mastercard"></i></a></li>
+                <li class="item"><a href="#"><i class="fa-brands fa-cc-discover"></i></a></li>
+                <li class="item"><a href="#"><i class="fa-brands fa-cc-amex"></i></a></li>
+            </ul>
+            <span>Copyright ©2023 All rights reserved | This template is made with </span>
+            <i class="fa-regular fa-heart"></i> by <span class="text-uppercase">Shahd</span>
+        </div>
+    </div>
+    <!-- end final section -->
+    <script src="js/noUislider/nouislider.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.1.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
