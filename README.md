@@ -12,5 +12,5 @@
 ## checkout.html
 - <img src="img/checkout.png">
 ## store.html 
--<img src="img/store.png">
--and this is register and  login page. 
+- <img src="img/store.png">
+- and this is register and  login page. 
