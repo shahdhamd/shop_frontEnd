@@ -7,10 +7,10 @@
 - <img src="img/index_3).png" >
 - <img src="img/index_4.png" >
 - <img src="img/index_5.png" >
-##cart.html :
+## cart.html :
 - <img src="img/cart.png">
-##checkout.html
+## checkout.html
 - <img src="img/checkout.png">
-##store.html 
--<img src="store.html">
+## store.html 
+-<img src="img/store.html">
 -and this is register and  login page. 
